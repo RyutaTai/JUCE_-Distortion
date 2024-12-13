@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio Version 17
+
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Distortion - Standalone Plugin", "Distortion_StandalonePlugin.vcxproj", "{0DE437D5-AE18-BE2A-860C-C89361E237FA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F408279A-C482-106C-0CFF-6D8E8D0DCF64} = {F408279A-C482-106C-0CFF-6D8E8D0DCF64}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Distortion - VST3", "Distortion_VST3.vcxproj", "{FBE40D83-2F3E-32F6-9FF4-640B77D5C69D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F408279A-C482-106C-0CFF-6D8E8D0DCF64} = {F408279A-C482-106C-0CFF-6D8E8D0DCF64}
+		{F3503A6B-57B3-5ADF-B512-873B3F98505D} = {F3503A6B-57B3-5ADF-B512-873B3F98505D}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Distortion - Shared Code", "Distortion_SharedCode.vcxproj", "{F408279A-C482-106C-0CFF-6D8E8D0DCF64}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Distortion - VST3 Manifest Helper", "Distortion_VST3ManifestHelper.vcxproj", "{F3503A6B-57B3-5ADF-B512-873B3F98505D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FBE40D83-2F3E-32F6-9FF4-640B77D5C69D}.Debug|x64.ActiveCfg = Debug|x64
+		{FBE40D83-2F3E-32F6-9FF4-640B77D5C69D}.Debug|x64.Build.0 = Debug|x64
+		{FBE40D83-2F3E-32F6-9FF4-640B77D5C69D}.Release|x64.ActiveCfg = Release|x64
+		{FBE40D83-2F3E-32F6-9FF4-640B77D5C69D}.Release|x64.Build.0 = Release|x64
+		{0DE437D5-AE18-BE2A-860C-C89361E237FA}.Debug|x64.ActiveCfg = Debug|x64
+		{0DE437D5-AE18-BE2A-860C-C89361E237FA}.Debug|x64.Build.0 = Debug|x64
+		{0DE437D5-AE18-BE2A-860C-C89361E237FA}.Release|x64.ActiveCfg = Release|x64
+		{0DE437D5-AE18-BE2A-860C-C89361E237FA}.Release|x64.Build.0 = Release|x64
+		{F408279A-C482-106C-0CFF-6D8E8D0DCF64}.Debug|x64.ActiveCfg = Debug|x64
+		{F408279A-C482-106C-0CFF-6D8E8D0DCF64}.Debug|x64.Build.0 = Debug|x64
+		{F408279A-C482-106C-0CFF-6D8E8D0DCF64}.Release|x64.ActiveCfg = Release|x64
+		{F408279A-C482-106C-0CFF-6D8E8D0DCF64}.Release|x64.Build.0 = Release|x64
+		{F3503A6B-57B3-5ADF-B512-873B3F98505D}.Debug|x64.ActiveCfg = Debug|x64
+		{F3503A6B-57B3-5ADF-B512-873B3F98505D}.Debug|x64.Build.0 = Debug|x64
+		{F3503A6B-57B3-5ADF-B512-873B3F98505D}.Release|x64.ActiveCfg = Release|x64
+		{F3503A6B-57B3-5ADF-B512-873B3F98505D}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

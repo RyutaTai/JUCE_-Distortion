@@ -1,0 +1,7 @@
+*.tlog
+JuceLibraryCode/
+Builds/VisualStudio2022/x64/
+Builds/VisualStudio2022/packages/Microsoft.Web.WebView2.1.0.1901.177/tools/wv2winrt/es/System.CommandLine.resources.dll
+Builds/VisualStudio2022/packages/
+Builds/VisualStudio2022/.vs/
+*.user
